@@ -1,0 +1,245 @@
+       <div className="jsj">
+          {items.name}
+          {items.symbol}
+          {items.market_data.current_price.inr}
+          <img src={items.image.small} />
+          <div className=" bkas">
+            Aims infosoft score:
+            {items.coingecko_rank}
+            {/* {items.description.en} */}
+            <div className="sakd">
+              {" "}
+              clickme
+              {/* <a href={items.links.blockchain_site[0]}></a> */}
+            </div>
+            <div className="ad">
+              {items.market_data.market_cap_change_percentage_24h.toFixed(2)}%<br></br>
+        
+            </div>
+          </div>
+        </div>  
+        
+        
+          // const [graphs, setgraphs] = useState("");
+  // console.log("graph data of bitcoin-->", Data_graph && Data_graph.prices);
+
+  // useEffect(() => {
+  //   console.log("graph-data checking-->",Data_graph && Data_graph.prices);
+
+  //   Data_graph &&
+  //     Data_graph.prices.map((graphData) => {
+  //       console.log("graph-data checking in tgheh-->", graphData);
+
+  //       graphData;
+  //     });
+  // }, []);
+
+  // console.log("in the detail page---", items);
+        
+        
+        
+        
+        
+        
+        
+     <div className="dropdown">
+                  <form>
+                    <select onChange={asset}>
+                    
+                        
+                          <div className="hskajd"></div>;
+               
+                              <option >
+                                
+                              </option>
+                   
+                       
+                     
+                  
+                    </select>
+                  </form>
+                </div>    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+              key={coin.id}
+            name={coin.name}
+            image={coin.image}
+            symbol={coin.symbol}
+            marketcap={coin.market_cap}
+            price={coin.current_price}
+            pricechange={coin.price_change_percentage_24h}
+
+
+
+            // if (isLoaded) {
+        
+    //   const interval = setInterval(() => {
+    //     console.log("Interval triggered");
+    //     axios
+    //       .get(
+    //         "https://api.coingecko.com/api/v3/coins/markets?vs_currency=INR&order=market_cap_desc&per_page=20&page=1&sparkline=false"
+    //       )
+    //       .then((res) => {
+    //         setCoins(res.data);
+
+    //         console.log("BITCOIN DATA--", res.data);
+    //       })
+    //       .catch((error) => alert(error));
+    //   }, 20000);
+    //   return () => clearInterval(interval);
+    // }
+
+
+
+
+
+  {Data.map((graphData) => {
+    return(
+      <div className="graph-data">
+        {graphData.prices}
+      </div>
+    )
+
+   })}
+
+
+
+
+
+
+
+
+  const data = React.useMemo(
+    () => [
+      {
+        label: "Series 1",
+        data: [
+          [0, 5],
+          [1, 2],
+          [2, 4],
+          [3, 2],
+          [4, 7],
+        ],
+      },
+      {
+        label: "Series 2",
+        data: [
+          [0, 3],
+          [1, 1],
+          [2, 5],
+          [3, 6],
+          [4, 4],
+        ],
+      },
+    ],
+    []
+  );
+
+
+
+**********************************
+  const [graphs, setgraphs] = useState();
+
+  useEffect(() => {
+    if (Data_graph === undefined) {
+      <>loading..</>;
+    } else {
+      Data_graph.prices &&
+        Data_graph.prices.map(
+          (graphData) =>
+            console.log("in the chart--->", graphData),
+            setgraphs(graphData),
+          []
+        );
+    }
+  });
+  *******************************
+
+
+  console.log("data of graph (1)-->", Data_graph.prices && Data_graph.prices);
+
+  const xyz = [];
+  xyz.push(Data_graph.prices && Data_graph.prices);
+  const [datagraphs, setdatagraphs] = useState();
+    
+
+  console.log("in the xyz file-->",xyz);
+  useEffect(() => {
+    if (xyz === undefined) {
+      return(
+
+        <>loading..</>
+      )
+    } else {
+      xyz.map(
+        (Datasofgraphs) => setdatagraphs(Datasofgraphs),
+        []
+      );
+    }
+  });
+
+
+
+  *********************************************************************************************
+
+    // console.log("data of graph (1)-->", Data_graph.prices && Data_graph.prices);
+
+  // const xyz = [];
+
+  // if (Data_graph && Data_graph.prices === undefined) {
+  //    <>
+  //       <h2>wait..</h2>
+  //     </>
+    
+  // } else {
+  //   xyz.push(Data_graph.prices && Data_graph.prices);
+  // };
+
+  
+  // const [datagraphs, setdatagraphs] = useState();
+  // console.log("in the xyz file-->", xyz);
+  // useEffect(() => {
+  //   xyz.map((Datasofgraphs) => setdatagraphs(Datasofgraphs), []);
+  // });
+
+*************************************************************************************************
+
+setdatagraphs(moment(Datasofgraphs).format("YYYY-MMM-DD,h:mm:ss a"))
+
+
+
+
+
+
+
+

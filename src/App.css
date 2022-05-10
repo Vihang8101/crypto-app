@@ -1,0 +1,471 @@
+/* css for bitcoin page */
+* {
+  margin: 0;
+  padding: 0;
+}
+.body{
+  overflow: hidden;
+}
+.graph{
+  height: 500px;
+  width: 1000px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 100%;
+
+}
+.marquee{
+ behavior: scroll;
+ scrollamount:'20';
+  /* width:'50%'; */
+  direction:'right';
+  height:'50px';
+  display: flex;
+  width: 100%;
+  
+}
+
+.tickLabel{
+  font-size: 15px;
+}
+.xyzo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.new{
+  background-color: black;
+  height: 100vh;
+
+
+}
+
+.container {
+  max-width: 1290px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbaras {
+  padding: 12px 0;
+}
+
+.bitcoin {
+  display: flex;
+  align-items: center;
+}
+
+.aside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main {
+  background-color: black;
+}
+.lop {
+  padding-top: 60px;
+}
+.bitcoinnavbar h5{
+  color: white;
+  font-size: 30px;
+}
+.llo{
+  padding-top: 35px;
+}
+h3{
+  color: white;
+  font-size: 30px;
+}
+.main h1 {
+  font-size: 60px;
+  color: white;
+}
+.left-content h2{
+  font-size: 50px;
+  color: white;
+}
+.main p{
+  margin-top: 25px;
+  font-size: 12px;
+  color: white;
+}
+.main h3 {
+  font-size: 30px;
+  color: white;
+}
+h5{
+  font-size: 30px;
+  color: black;
+}
+.logo h5{
+  font-size: 20px;
+  color: white;
+}
+.main h4 {
+  font-size: 30px;
+  color: white;
+}
+.bitcoin h1 {
+  padding-left: 3px;
+}
+
+#play {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 11px;
+  font-size: 24px;
+}
+
+.ooop {
+  padding-top: 25px;
+}
+
+.site-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.icon {
+  padding:25px 30px;
+}
+
+.icon a {
+  color: white;
+  font-size: 30px;
+  padding: 0 5px;
+}
+
+.info {
+  margin: 25px 30px;
+  color: white;
+}
+
+.info a {
+  color: white;
+  font-size: 26px;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.main-content h1 {
+  font-size: 80px;
+}
+
+.qwe {
+  padding-top: 60px;
+  padding-bottom: 105px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+}
+.mid-content {
+  padding: 0 40px;
+}
+
+.right-content {
+  color: white;
+}
+
+select {
+  height: 50px;
+  width: 85px;
+  text-align: center;
+  font-size: 23px;
+  color: white;
+  background-color: black;
+}
+
+.logo a {
+  font-size: 30px;
+}
+
+.header {
+  background-color: black;
+  border: 1px solid white;
+}
+.btnn {
+  background-color: black;
+  border: none;
+}
+
+/******************** css for home page *************************************************/
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100vh; */
+  color: white;
+  padding-top: 64px;
+  background-color: black;
+}
+.coin-search {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-app .xop{
+  width: 100%;
+}
+.coin-text {
+  margin-bottom: 32px;
+  text-align: center;
+}
+.coin-input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border-style: solid;
+  color: black;
+}
+.coin-input::placeholder {
+  color: black;
+}
+
+.coin-container {
+  display: flex;
+  justify-content: center;
+}
+.coin-row {
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  align-items: center;
+  /* height: 80px; */
+  border-bottom: 1px solid #d7d7d7;
+  width: 95%;
+}
+.coin {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  min-width: 300px;
+}
+.coin h1{
+  color: white;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
+.coin img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.coin h1 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.coin-symbol {
+  text-transform: uppercase;
+}
+.coin-data {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-right: 50px;
+}
+.coin-price {
+  width: 110px;
+}
+
+.coin-volume {
+  width: 230px;
+}
+.coin-marketcap {
+  width: 155px;
+}
+.coin-percent {
+  width: 100%;
+}
+.red {
+  color: #f00606;
+}
+.green {
+  color: #11d811;
+}
+
+.dropmenu{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 0 47px 0;
+  margin: -44px 38px 0px 0px;
+}
+
+@media (max-width:991px){
+  .logo h5{
+    font-size: 18px;
+  }
+  .bitcoin h1{
+    font-size: 45px;
+  }
+  .left-content h2{
+    font-size: 45px;
+  }
+}
+
+@media (max-width:767px){
+  .logo h5{
+    font-size: 16px;
+  }
+  .bitcoin h1{
+    font-size: 42px;
+  }
+  select{
+    height:40px;
+    width:70px ;
+    font-size:21px ;
+  }
+  .left-content h2{
+    font-size: 40px;
+  }
+  .main h4{
+    font-size: 27px;
+  }
+}
+
+@media (max-width:576px){
+  .logo h5{
+    font-size: 14px;
+  }
+  .bitcoin h1{
+    font-size: 35px;
+  }
+  select{
+    height:32px;
+    width:55px ;
+    font-size:17px ;
+  }
+  .main p{
+    font-size: 7px;
+    width: 84%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .main h3{
+    font-size: 22px;
+  }
+  .icon a{
+    font-size:25px;
+  }
+  .icon{
+    margin: 0 auto;
+  }
+  .rank{
+    margin: 0 auto;
+  }
+  .left-content h2{
+    font-size: 35px;
+    text-align: center;
+  }
+  .left-content{
+    margin: 0 auto;
+  }
+  .content{
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .right-content h2{
+    font-size: 22px;
+  }
+  .right-content{
+    padding: 0;
+  }
+  .main h4{
+    font-size: 15px;
+  }
+  .navbaras{
+    padding: 0;
+  }
+  .llo{
+    text-align: center;
+  }
+  .graph{
+    height: 250px;
+    max-width: 90%;
+  }
+  .dropmenu{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 17px 0;
+    margin: -50px 0 0 0;
+  }
+
+}
+
+@media (max-width:320px){
+  .logo h5{
+    font-size: 11px;
+  }
+  .bitcoin h1{
+    font-size: 26px;
+  }
+  select{
+    height:26px;
+    width:48px ;
+    font-size:12px ;
+  }
+  .aside{
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .main p{
+    font-size: 5px;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .main h3{
+    font-size: 14px;
+  }
+  .icon a{
+    font-size:22px;
+  }
+  .left-content h2{
+    font-size: 30px;
+  }
+  .right-content{
+    padding: 0;
+  }
+  .main h4{
+    font-size: 14px;
+  }
+  .right-content h2{
+    font-size: 13px;
+  }
+}
